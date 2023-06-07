@@ -14,7 +14,7 @@ const uint B_minus = 5;
 
 // gpio_set_dir(LED_PIN, GPIO_OUT);
 
-
+//gipo
 void enable_pins(){
 
 gpio_init(A_plus);

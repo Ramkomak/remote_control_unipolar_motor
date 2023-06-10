@@ -7,5 +7,9 @@
 			"path": "../pico-examples"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
 }

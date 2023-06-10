@@ -3,7 +3,6 @@
 #include "hardware/gpio.h"
 #include "pico/binary_info.h"
  
-// #include <iostream>
 
 const uint A_plus = 2;
 const uint A_minus = 3;
@@ -43,9 +42,10 @@ void call_back(u_int gpio, u_int32_t events)
     
     if(events == GPIO_IRQ_EDGE_RISE)
     {
+        
         if(gpio == 6)
         {
-            // std::cout<<"działa %d\n", speed_control;   
+            
             printf("działa %d\n",speed_control);
             speed_control = speed_control+100;
             
